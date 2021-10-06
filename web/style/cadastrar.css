@@ -1,0 +1,180 @@
+/* 
+    Created on : Aug 7, 2021, 7:23:23 PM
+    Author     : Vinicius
+*/
+
+body{
+    margin: 0;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: left;
+    background-color: #F7F7F7;
+    position: relative;
+    min-height: 100%;
+}
+
+.cabecalho-solid{
+    background-color: #03989E;
+    height: 70px;
+    box-shadow: 0 2px 5px;  
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.cabecalho-solid h1{
+    text-shadow: 0.1em 0.1em 0.05em #333;
+    color: whitesmoke;
+    width: 80%;
+}
+
+.logotipo{
+    background-size: 300px 150px;
+    width: 75px;
+}
+
+.content{
+    padding: 0;
+    margin: 48px auto 32px;
+    width: 714px;
+}
+
+.content-wrapper{
+    padding: 30px;
+    margin: 48px auto 32px;
+    width: 714px;
+    background-color: #fff;
+    border-radius: 4px;
+    box-shadow: 0 1px 3px rgb(0 0 0 / 20%);
+    overflow: hidden;
+}
+
+.line-one{
+    display: inline-flex;
+}
+
+.line{
+    display: flex;
+}
+
+.name{
+    padding-left: 15px;
+}
+
+.date{
+    padding-left: 15px;
+}
+
+.cpf{
+    padding-left: 15px;
+}
+
+.rg{
+    padding-left: 15px;
+}
+
+.sex{
+    padding-left: 15px;
+    padding-top: 16px;
+}
+
+label{
+    display: block;
+    padding-bottom: 12px;
+}
+
+.nameRes{
+    padding-left: 15px;
+}
+
+.phone{
+    padding-left: 15px;
+}
+
+.email{
+    padding-left: 15px;
+}
+
+.password{
+    padding-left: 15px;
+}
+
+.confirmPass{
+    padding-left: 15px;
+}
+
+.box input[type = "text"],.box input[type = "password"] ,.box input[type = "email"],.box input[type = "number"]{
+    display: block;
+    padding: 11px 10px;
+    outline: none;
+    color: black;
+    transition: .25s;  
+}
+
+.box input[type = "date"]{
+    padding: 8.5px;
+}
+
+.email input[type = "email"]{
+    padding-right: 100px;
+    width: 60%;
+}
+
+.content input[type = "submit"]{
+    border:0;
+    background: #03989e;
+    display: block;
+    border: 2px solid #03989e;
+    padding: 14px 40px;
+    outline: none;
+    color: whitesmoke;
+    font-size: 17px;
+    border-radius: 24px;
+    cursor: pointer;
+}
+
+.content input[type = "submit"]:hover{
+   color: whitesmoke !important;
+   z-index: 3;
+   border-style: solid;
+   border-color:#dddddd #ffffff #dddddd #dddddd;
+   border-width: 1px 0px 1px 0px;
+   width: 150px;
+}
+
+.login{
+   display: inline-block;
+}
+
+a{
+   padding-left: 5px;
+}
+
+.exit{
+    width: 20%;
+    text-align: right;
+}
+
+.line-two{
+    display: flex;
+    padding-left: 15px;
+}
+
+.line-three{
+    display: flex;
+    padding-left: 15px;
+}
+
+.cidade{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.rua{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+

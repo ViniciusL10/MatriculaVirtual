@@ -1,0 +1,329 @@
+/* 
+    Created on : 29 de jul. de 2021, 14:33:44
+    Author     : vinicius.batista
+*/
+
+body {
+    margin: 0;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    font-size: 1rem; 
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: left;
+    background-color: #fff;
+    position: relative;
+    min-height: 100%; 
+}
+
+.all-content{
+    display: -webkit-box;
+    display: flex;
+    background-color: #F2F4F8;
+}
+
+.cabecalho{
+    background-image: url(../Imagem/bg-3.jpg);
+    height: 500px;
+    background-position: right center;
+    background-size: cover;
+    box-shadow: 0 2px 5px;
+    align-items: center;
+}
+
+.cabecalho-solid{
+    background-color: #03989E;
+    height: 70px;
+    box-shadow: 0 2px 5px;  
+    display: flex;
+    align-items: center;
+    position: relative;
+    padding: 20px;
+    justify-content: space-between;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    min-width: 500px;
+}
+
+.iconMaterial{
+    display: flex;
+    align-items: center;
+}
+
+.iconMaterial h3{
+    color: #fff;
+    padding-right: 30px;
+}
+
+.iconMaterial a{
+    color: #fff !important;
+}
+
+.cabecalho-solid h1{
+    text-shadow: 0.1em 0.1em 0.05em #333;
+    color: whitesmoke;
+    width: 72%;
+}
+
+.logotipo{
+    background-size: 300px 150px;
+    width: 75px;
+}
+
+.content-wrapper{
+    -webkit-box-flex: 5;
+    flex: 5;
+    background-color: #FFFFFF;
+    padding: 0 20px 120px 20px;
+    box-shadow: inset 0px 11px 4px -10px;
+}
+
+.dashboard-wrapper{
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.sidenav-wrapper{
+    -webkit-box-flex: 1;
+    min-width: 220px;    
+}
+
+.sidenav{
+    background-color: #ECECEC;
+    padding-top: 40px;
+    padding-right: 20px;
+    padding-bottom: 100px;
+    height: 100%;
+    box-shadow: inset 0px 11px 4px -10px;
+    width: 100%;
+}
+
+.sidenav ul{
+    padding: 0;
+    list-style: none;
+    width: 100%;
+}
+
+.sidenav-item{
+    line-height: 22px;
+    list-style: none;
+    padding: 13px 15px 13px 0;
+    display: block;
+    color: #606060;
+    font-size: 13px;   
+}
+
+.sidenav-item:hover{
+    background-color: #C7E4E0;
+}
+
+.sidenav-item a{
+    display: flex;
+    align-items: center;
+}
+
+.sidenav-icon{
+    padding-left: 15px;
+    float: left;
+    padding-right: 10px;
+}
+
+.sidenav-name{
+    height: 22px;
+}
+
+.box{
+    margin-bottom: 40px;
+}
+
+.box-content{
+    width: 100%;
+    margin-bottom: 40px;
+}
+
+.icon{
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+}
+
+.title{
+    display: -webkit-box;
+    -webkit-box-flex: 1;
+    flex: 1;
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+
+.title h1{
+    font-size: 20px;
+    color: #3C3C3C;
+    margin: 0;
+    font-weight: 600;
+    margin-left: 20px;
+    line-height: 15px;
+}
+
+.list{
+    top: 0;
+    right: 0;
+    height: 100%;
+}
+
+.list ul{
+    margin: 0;
+}
+
+.list ul li{
+    list-style: none;
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.list ul li a{
+    color: #425564;
+    text-decoration: none;
+    transition: color .3s linear;
+    cursor: pointer;
+}
+
+.information{
+    display: flex;
+    margin: 0;
+}
+
+.information label{
+    padding-top: calc(.375rem + 1px);
+    padding-bottom: calc(.375rem + 1px);
+    margin-bottom: 0;
+    line-height: 2;
+    font-size: 14px;
+    direction: rtl;
+    padding-right: 0;
+    flex: 0 0 19%;
+    max-width: 16.666667%;
+    text-align: right;
+}
+
+.information div input{
+    background: #F2F2F2;
+    width: 100%;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+}
+
+.information div{
+    position: relative;
+    min-height: 1px;
+    padding-left: 25px;
+    width: 80%;
+}
+
+footer{
+    background-color: #03989E;
+    font-family: Avenir, Helvetica, sans-serif;
+    font-weight: bold;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    align-items: center;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    height: 100px;
+    display: flex;
+    padding: 20px 15px;
+}
+
+.local{
+    color: white;
+    text-shadow: 0.1em 0.1em 0.05em #333;
+}
+
+.cabecalho-footer{
+    height: 70px;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.cabecalho-footer h1{
+    text-shadow: 0.1em 0.1em 0.05em #333;
+    color: whitesmoke;
+    width: 80%;
+}
+
+.title-footer{
+    font-size: 10px;
+    text-align: center;
+}
+
+.writing{
+    display: inline;
+}
+
+.footer_icons{
+    display: flex; 
+    justify-content: center;
+}
+
+.footer_icon{
+    padding-left: 5px;
+}
+
+.face{
+    width: 40px;
+}
+
+.twit{
+    width: 40px;
+}
+
+.insta{
+    width: 40px;
+}
+
+div{
+    display: block;
+}
+
+*, ::after, ::before{
+    box-sizing: border-box;
+}
+
+a{
+    color: #007bff;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+a:-webkit-any-link{
+    color: -webkit-link;
+    cursor: pointer;
+}
+
+li{
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+
+.exit{
+    width: 5%;
+    text-align: right;
+}
+
+.user h3{
+    color: #fff;
+}
+
+.exit a{
+    color: #fff;
+}
+

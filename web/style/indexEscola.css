@@ -1,0 +1,243 @@
+/* 
+    Created on : 14 de set. de 2021, 15:58:52
+    Author     : vinicius.batista
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap');
+body {
+    margin: 0;
+    font-family: -apple-system,BlinkMacSystemFont,'Inter', sans-serif,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: left;
+    background-color: #fff;
+    position: relative;
+    color: #343a40;
+    line-height: 1;
+    min-height: 100%;
+}
+
+.all-content{
+    display: -webkit-box;
+    display: flex;
+    background-color: #F2F4F8;
+}
+
+.cabecalho-solid{
+    background-color: #03989E;
+    height: 70px;
+    box-shadow: 0 2px 5px;  
+    display: flex;
+    align-items: center;
+    position: relative;
+    padding: 20px;
+    justify-content: space-between;
+}
+
+.logotipo{
+    background-size: 300px 150px;
+    width: 75px;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    min-width: 500px;
+}
+
+.iconMaterial{
+    display: flex;
+    align-items: center;
+}
+
+.iconMaterial h3{
+    color: #fff;
+    padding-right: 30px;
+}
+
+.iconMaterial a{
+    color: #fff !important;
+}
+
+.content-wrapper{
+    -webkit-box-flex: 5;
+    flex: 5;
+    background-color: #FFFFFF;
+    padding: 0 20px 120px 20px;
+    box-shadow: inset 0px 11px 4px -10px;
+}
+
+.dashboard-wrapper{
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.title-welcome{
+    width: 100%;
+    text-align: center;
+    padding: 50px 0;
+}
+
+.title-welcome h1{
+    font-size: 29px;
+    color: #03989E;
+    font-weight: bold;
+    margin: 0;
+}
+
+.title-welcome span{
+    font-size: 19px;
+    color: #9BABB7;
+    display: block;
+    line-height: 19px;
+    margin-top: 10px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+table{
+    border-right-color: #ffffff;
+    font-size: 18px;
+    border-collapse: collapse; 
+}
+
+th, td{
+    padding: 16px 24px;
+    text-align: left;
+    border-bottom: 1px solid rgba(0, 0, 0, .1);
+}
+
+th{
+    border-bottom: 1px solid rgba(0, 0, 0, .1);
+    color: #03989E;
+    width: 25%;
+}
+
+.button-table{
+    background-color: #03989E;
+    border: none;
+    border-radius: 6px;
+    font-size: 15px;
+    line-height: 36px;
+    margin-left: 8px;
+    cursor: pointer;
+    display: inline-block;
+    text-decoration: none;
+    white-space: nowrap;
+    color: #fff;
+}
+
+.button-table p{
+    padding: 5px;
+}
+
+footer{
+    background-color: #03989E;
+    font-family: Avenir, Helvetica, sans-serif;
+    font-weight: bold;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    align-items: center;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    height: 100px;
+    display: flex;
+    padding: 20px 15px;
+}
+
+.local{
+    color: white;
+    text-shadow: 0.1em 0.1em 0.05em #333;
+}
+
+.cabecalho-footer{
+    height: 70px;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.cabecalho-footer h1{
+    text-shadow: 0.1em 0.1em 0.05em #333;
+    color: whitesmoke;
+    width: 80%;
+}
+
+.title-footer{
+    font-size: 10px;
+    text-align: center;
+}
+
+.writing{
+    display: inline;
+}
+
+.footer_icons{
+    display: flex; 
+    justify-content: center;
+}
+
+.footer_icon{
+    padding-left: 5px;
+}
+
+.face{
+    width: 40px;
+}
+
+.twit{
+    width: 40px;
+}
+
+.insta{
+    width: 40px;
+}
+
+div{
+    display: block;
+}
+
+*, ::after, ::before{
+    box-sizing: border-box;
+}
+
+a{
+    color: #007bff;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+a:-webkit-any-link{
+    color: -webkit-link;
+    cursor: pointer;
+}
+
+li{
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+
+.exit{
+    width: 20%;
+    text-align: right;
+}
+
+.exit a{
+    color: #fff;
+}
+
+.branca{
+    width: 50%;
+}

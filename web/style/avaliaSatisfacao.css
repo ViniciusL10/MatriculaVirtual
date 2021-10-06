@@ -1,0 +1,417 @@
+/* 
+    Created on : 29 de jul. de 2021, 14:33:44
+    Author     : vinicius.batista
+*/
+
+body {
+    margin: 0;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: left;
+    background-color: #fff;
+    position: relative;
+    min-height: 100%;
+}
+
+.all-content{
+    display: -webkit-box;
+    display: flex;
+    background-color: #F2F4F8;
+}
+
+.cabecalho{
+    background-image: url(../Imagem/bg-3.jpg);
+    height: 500px;
+    background-position: right center;
+    background-size: cover;
+    box-shadow: 0 2px 5px;
+    align-items: center;
+}
+
+.cabecalho-solid{
+    background-color: #03989E;
+    height: 70px;
+    box-shadow: 0 2px 5px;  
+    display: flex;
+    align-items: center;
+    position: relative;
+    padding: 20px;
+    justify-content: space-between;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    min-width: 500px;
+}
+
+.iconMaterial{
+    display: flex;
+    align-items: center;
+}
+
+.iconMaterial h3{
+    color: #fff;
+    padding-right: 30px;
+}
+
+.iconMaterial a{
+    color: #fff !important;
+}
+
+.cabecalho-solid h1{
+    text-shadow: 0.1em 0.1em 0.05em #333;
+    color: whitesmoke;
+    width: 72%;
+}
+
+.logotipo{
+    background-size: 300px 150px;
+    width: 75px;
+}
+
+.content-wrapper{
+    -webkit-box-flex: 5;
+    flex: 5;
+    background-color: #FFFFFF;
+    padding: 0 20px 120px 20px;
+    box-shadow: inset 0px 11px 4px -10px;
+}
+
+.dashboard-wrapper{
+    display: -ms-flexbox;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+
+.sidenav-wrapper{
+    -webkit-box-flex: 1;
+    min-width: 220px;    
+}
+
+.sidenav{
+    background-color: #ECECEC;
+    padding-top: 40px;
+    padding-right: 20px;
+    padding-bottom: 100px;
+    height: 100%;
+    box-shadow: inset 0px 11px 4px -10px;
+    width: 100%;
+}
+
+.sidenav ul{
+    padding: 0;
+    list-style: none;
+    width: 100%;
+}
+
+.sidenav-item{
+    line-height: 22px;
+    list-style: none;
+    padding: 13px 15px 13px 0;
+    display: block;
+    color: #606060;
+    font-size: 13px;   
+}
+
+.sidenav-item:hover{
+    background-color: #C7E4E0;
+}
+
+.sidenav-item a{
+    display: flex;
+    align-items: center;
+}
+
+.sidenav-icon{
+    padding-left: 15px;
+    float: left;
+    padding-right: 10px;
+}
+
+.sidenav-name{
+    height: 22px;
+}
+
+.box{
+    margin-bottom: 40px;
+}
+
+.box-content{
+    width: 100%;
+    margin-bottom: 40px;
+}
+
+.icon{
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+}
+
+.title{
+    display: -webkit-box;
+    -webkit-box-flex: 1;
+    flex: 1;
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+
+.title h1{
+    font-size: 20px;
+    color: #3C3C3C;
+    margin: 0;
+    font-weight: 600;
+    margin-left: 20px;
+    line-height: 15px;
+}
+
+.script{
+    padding-top: 17px;
+    padding-left: 10px;
+}
+
+.content{
+    padding-left: 20px;
+}
+
+.content h1{
+    border-style: solid;
+    border-top-width: 0;
+    border-right-width: 0;
+    border-left-width: 0;
+}
+
+.information{
+    display: grid;
+    justify-content: center;
+}
+
+.content-information{
+    display: inline-flex;
+}
+
+.ci1{
+    padding-bottom: 30px;
+}
+
+button {
+  border: none;
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.95);
+  cursor: pointer;
+}
+
+.psuedo-text {
+  color: #03989E;
+  position: relative;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  font-size: 1.7rem;
+  font-size: 15px;
+  transition: 0.25s ease-in;
+  transition-delay: 0.1s;
+}
+
+.button {
+  background: white;
+  text-align: center;
+  font-size: 1.4rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  position: relative;
+  will-change: transform;
+}
+
+.button-mat {   
+  color: #03989E;
+  border: 0px transparent;
+  border-radius: 0.3rem;
+  transition: 0.3s ease-in-out;
+  transition-delay: 0.35s;
+  overflow: hidden;
+}
+.button-mat:before {
+  content: "";
+  display: block;
+  background: #03989E;
+  position: absolute;
+  width: 200%;
+  height: 500%;
+  border-radius: 100%;
+  transition: 0.36s cubic-bezier(0.4, 0, 1, 1);
+}
+.button-mat:hover .psuedo-text {
+  color: white;
+}
+.button-mat:hover {
+  color: transparent;
+}
+
+.btn--5:before {
+  transform: translate(-120%, -50%) translateZ(0);
+}
+.btn--5:hover:before {
+  transform: translate(-45%, -34%) translateZ(0);
+}
+
+.enviarAva{
+    text-align: center;
+    padding-top: 20px;
+}
+
+.modal{
+    position: fixed;
+    top:0;
+    left:0;
+    padding:0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.5);
+    opacity: 0;
+    visibility: hidden;
+    transform: scale(1.1);
+    transition: visibility 0.25s ease-in-out , opacity 0.25s ease-in-out, transform 0.25s ease-in-out;   
+}
+
+.modal-content{
+    background-color: white;
+    padding: 16px 24px;    
+    width: 500px;
+    border-radius: 0.5rem;
+}
+
+.show-modal{
+    opacity: 1;
+    visibility: visible;
+    transform: scale(1.0);    
+}
+
+.btn{
+    text-align: left;
+    padding: 10px;
+    border-radius: 5px;
+    background: #03989E;
+}
+
+.modal-footer{
+    text-align: end;
+}
+
+.document{
+    background:#03989e;
+    padding: 14px 40px;
+    border-radius: 10px;
+    font-size: 17px;
+}
+
+footer{
+    background-color: #03989E;
+    font-family: Avenir, Helvetica, sans-serif;
+    font-weight: bold;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    align-items: center;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    height: 100px;
+    display: flex;
+    padding: 20px 15px;
+}
+
+.local{
+    color: white;
+    text-shadow: 0.1em 0.1em 0.05em #333;
+}
+
+.cabecalho-footer{
+    height: 70px;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.cabecalho-footer h1{
+    text-shadow: 0.1em 0.1em 0.05em #333;
+    color: whitesmoke;
+    width: 80%;
+}
+
+.title-footer{
+    font-size: 10px;
+    text-align: center;
+}
+
+.writing{
+    display: inline;
+}
+
+.footer_icons{
+    display: flex; 
+    justify-content: center;
+}
+
+.footer_icon{
+    padding-left: 5px;
+}
+
+.face{
+    width: 40px;
+}
+
+.twit{
+    width: 40px;
+}
+
+.insta{
+    width: 40px;
+}
+
+div{
+    display: block;
+}
+
+*, ::after, ::before{
+    box-sizing: border-box;
+}
+
+a{
+    color: #007bff;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+a:-webkit-any-link{
+    color: -webkit-link;
+    cursor: pointer;
+}
+
+li{
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+
+.exit{
+    width: 5%;
+    text-align: right;
+}
+
+.user h3{
+    color: #fff;
+}
+
+.exit a{
+    color: #fff;
+}
