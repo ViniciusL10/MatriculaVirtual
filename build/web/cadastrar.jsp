@@ -53,9 +53,9 @@
                                 <label for="sexo">Sexo</label> 
                                 <div class="radio" style="display: flex; align-items: center">
                                     <input type="radio" name="sexo" required="required" value="Masculino">
-                                    <label for="sexo" style="padding-top: 13px;">Masculino</label>
+                                    <label style="padding-top: 13px;">Masculino</label>
                                     <input type="radio" name="sexo" required="required" value="Feminino">
-                                    <label for="sexo" style="padding-top: 13px;">Feminino</label>
+                                    <label style="padding-top: 13px;">Feminino</label>
                                 </div>
                             </div>
                         </div>  
