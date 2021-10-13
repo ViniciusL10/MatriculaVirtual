@@ -51,11 +51,12 @@
                             </div>
                             <div class="sex">
                                 <label for="sexo">Sexo</label> 
-                                <select id="sexo" name="sexo">
-                                    <option value="-">-</option>
-                                    <option value="masculino">Masculino</option>
-                                    <option value="feminino">Feminino</option>
-                                </select> 
+                                <div class="radio" style="display: flex; align-items: center">
+                                    <input type="radio" name="sexo" required="required" value="Masculino">
+                                    <label style="padding-top: 13px;">Masculino</label>
+                                    <input type="radio" name="sexo" required="required" value="Feminino">
+                                    <label style="padding-top: 13px;">Feminino</label>
+                                </div>
                             </div>
                         </div>  
                         <div class="line">
